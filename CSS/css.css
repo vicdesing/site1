@@ -1,0 +1,105 @@
+.icone {text-align: center;
+    padding: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;}
+
+body {
+    background-color: #fefefe;
+text-align: center; }
+
+nav {background-color: rgb(0, 0, 0);
+text-align: center;
+padding: 30px;
+position: absolute;
+top: 300px;
+left: 0px;
+right: 0px;}
+
+nav a {text-decoration: none;
+color: #ffffff;
+border-radius: 5%;
+padding: 10px;
+font-size: 30px;}
+
+nav a {transition: all 0.5; opacity: 1;}
+nav a:hover {opacity: 0.5;}
+
+.slider {
+    display: block;
+    height: 293px;
+    width: 600px;
+    margin-left: 10%;
+    margin-right: 50%;
+    margin: right;
+    margin-top: 300px;
+    position: relative;}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+
+.slider img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+
+.slider input {
+    display: none;
+}
+.slider label {
+    background-color: #000;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+
+.slider li:nth-child(1) label {
+    left: 10px;
+}
+
+.slider li:nth-child(2) label {
+    left: 40px;
+}
+
+.slider li:nth-child(3) label {
+    left: 70px;
+}
+.slider li:nth-child(4) label {
+    left: 100px;
+}
+
+.slider img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
+h1 {color: #000000;
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 800px;
+    position: absolute;
+    top: 500px;}
+
+p {color: #000000;
+font-size: 22px;
+top: 650px;
+position: absolute;
+left: 700px;
+right: 55px; text-align: justify;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+

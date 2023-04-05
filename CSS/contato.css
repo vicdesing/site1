@@ -1,0 +1,41 @@
+nav {background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;}
+    
+    nav a {text-decoration: none;
+    color: #ffffff;
+    border-radius: 5%;
+    padding: 10px;
+    font-size: 30px;}
+    
+body {overflow: hidden;}
+
+    nav a {transition: all 0.5; opacity: 1;}
+    nav a:hover {opacity: 0.5;}
+
+h1 {color: #000000;
+            font-size: 60px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            position: absolute;
+            padding: 100px;
+            margin-top: 50px;
+            right: 30%;}
+
+    p {color: #000000;
+font-size: 22px;text-align: center; margin-top: 300px;
+padding: 20px;
+position: absolute;
+ text-align: justify;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+width: 45%;
+right: 30%;}
+
+.botao { position: relative;
+        top: 550px;
+        left: 600px;
+        right: 35%;}
+
